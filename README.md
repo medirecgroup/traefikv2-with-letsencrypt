@@ -4,6 +4,12 @@
 
 ![Image of Traefik Example2](https://i.imgur.com/MuRpuYT.png)
 
+## Encriptando la contraseña
+
+Procederemos a modificar el archivo traefik_dynamic.toml, pero antes vamos a crear las credenciales para el dashboard. Introduciremos nuestro usuario y contraseña, el cual encriptaremos en https://www.htaccesstools.com/htpasswd-generator/ y agregamos el subdomain con el cual podremos acceder al dashboard.
+
+## Corriendo el servidor
+
 With docker-compose
 --------------------------------------------------------
 docker-compose up -d

@@ -12,7 +12,7 @@
   dashboard = true
 
 [certificatesResolvers.lets-encrypt.acme]
-  email = "example@example.com"
+  email = "moisesdavidaaron@gmail.com"
   storage = "acme.json"
   [certificatesResolvers.lets-encrypt.acme.tlsChallenge]
 
@@ -22,3 +22,4 @@
 
 [providers.file]
   filename = "traefik_dynamic.toml"
+

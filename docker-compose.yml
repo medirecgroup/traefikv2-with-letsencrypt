@@ -3,6 +3,7 @@ version: "3"
 services:
   traefik: 
     image: "traefik:latest"
+    network_mode: "host"
     container_name: "traefik"
     hostname: "traefik"
     ports:
@@ -13,8 +14,6 @@ services:
       - "./traefik.toml:/traefik.toml"
       - "./traefik_dynamic.toml:/traefik_dynamic.toml"
       - "./acme.json:/acme.json"
-    networks:
-      - web
 networks:
   web:
     external: true
