@@ -22,4 +22,3 @@
 
 [providers.file]
   filename = "traefik_dynamic.toml"
-
